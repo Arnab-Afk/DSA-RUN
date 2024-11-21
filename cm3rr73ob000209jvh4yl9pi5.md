@@ -9,7 +9,7 @@ tags: object-oriented-programming
 
 ---
 
-Create a custom Product class with name, price, and quantity fields. Create an ArrayList of Product objects and sort it based on price in ascending order. create functions to add delete display product
+### Create a custom Product class with name, price, and quantity fields. Create an ArrayList of Product objects and sort it based on price in ascending order. create functions to add delete display product
 
 ```java
 import java.util.ArrayList;
@@ -132,7 +132,7 @@ public class Main {
 
 ---
 
-Given a vector of integers, find the pair of elements whose sum is closest to a given target value. Input: vector = {10, 22, 28, 29, 30, 40}, target = 54 Output: 22 and 30
+### Given a vector of integers, find the pair of elements whose sum is closest to a given target value. Input: vector = {10, 22, 28, 29, 30, 40}, target = 54 Output: 22 and 30
 
 ```java
 import java.util.*;
@@ -190,7 +190,7 @@ public class Main {
 
 ---
 
-Write a java program that implements a multi-thread application that has three threads. First thread generates a random integer every 1 second and if the value is even, the second thread computes the square of the number and prints. If the value is odd, the third thread will print the value of the cube of the number.
+### Write a java program that implements a multi-thread application that has three threads. First thread generates a random integer every 1 second and if the value is even, the second thread computes the square of the number and prints. If the value is odd, the third thread will print the value of the cube of the number.
 
 ```java
 import java.util.Random;
@@ -272,7 +272,7 @@ public class MultiThreadApp {
 
 ---
 
-Write a program in Java to create two threads thread A and thread B. Thread A stores an array of characters whereas Thread B stores an array of numbers. Make them run concurrently and display characters and numbers
+### Write a program in Java to create two threads thread A and thread B. Thread A stores an array of characters whereas Thread B stores an array of numbers. Make them run concurrently and display characters and numbers
 
 ```java
 public class Main {
@@ -321,7 +321,7 @@ public class Main {
 
 ---
 
-Write a program to create two threads Thread A and Thread B. Thread A displays the numbers from 1 to 7 and thread B displays days in a week. Create main method to call these two threads and display the output.
+### Write a program to create two threads Thread A and Thread B. Thread A displays the numbers from 1 to 7 and thread B displays days in a week. Create main method to call these two threads and display the output.
 
 ```java
 public class Main {
@@ -399,13 +399,13 @@ public class Main {
 
 ---
 
-Problem: Split an array between two threads
+### Problem: Split an array between two threads
 
-Thread A: Calculate sum of first half
+**Thread A: Calculate sum of first half**
 
-Thread B: Calculate sum of second half
+**Thread B: Calculate sum of second half**
 
-Main thread combines and prints total sum
+**Main thread combines and prints total sum**
 
 ```java
 public class Main {
